@@ -59,26 +59,30 @@ Bloque de seccion principal
     margin-left: 10px;
 }
 
-/* IMAGEN DECORATIVA */
-.hero-img {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+.hero-img{
+
+    position:relative;
+
+    flex:1;
+
+    display:flex;
+    justify-content:center;
+
 }
 
-.hero-img img {
-    width: 250px;
+.hero-content{
+
+    flex:1;
 }
+.hero-img img{
 
-/* BADGE FLOTANTE */
-.badge-floating {
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    width:100%;
+    max-width:420px;
+}
+.badge-floating{
 
-    background-color: var(--lavanda-fria);
-    padding: 10px;
-    border-radius: 15px;
-    font-size: 0.8rem;
+    position:absolute;
+
+    top:20px;
+    right:20px;
 }
