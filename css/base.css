@@ -1,0 +1,29 @@
+/* base.css */
+:root {
+    /* Colores principales */
+    --celeste-hielo: #D8F0F7;
+    --turquesa-pastel: #C9EEE8;
+    --lavanda-fria: #E3DDF5;
+    --gris-azulado: #5F7181;
+
+    --color-fondo: #D8F0F7;
+    --color-superficie: #ffffff;
+    --color-texto: #5F7181;
+    --color-primario: #C9EEE8;
+    --color-secundario: #E3DDF5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: var(--color-texto);
+}
+
+h1 {
+    font-size: 2rem;
+}

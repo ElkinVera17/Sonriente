@@ -1,0 +1,84 @@
+
+.navbar .logo {
+    height: 50px;
+}
+/* ----------------------------------------
+Bloque de seccion principal
+-------------------------------------------*/
+/* CONTENIDO */
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.badge-hero {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: var(--lavanda-fria);
+    font-size: 0.8rem;
+}
+
+/* TITULO */
+#hero h1 {
+    font-size: 3rem;
+    color: var(--gris-azulado);
+}
+
+#hero h1 span {
+    color: var( --color-superficie);
+}
+
+/* TEXTOS */
+.lead {
+    font-size: 1.2rem;
+    color: var(--gris-azulado);
+}
+
+.sub {
+    color: #6c757d;
+}
+
+/* BOTONES */
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: var(--turquesa-pastel);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+}
+
+.btn-outline {
+    border: 2px solid var(--gris-azulado);
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: var(--gris-azulado);
+    margin-left: 10px;
+}
+
+/* IMAGEN DECORATIVA */
+.hero-img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hero-img img {
+    width: 250px;
+}
+
+/* BADGE FLOTANTE */
+.badge-floating {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+
+    background-color: var(--lavanda-fria);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
