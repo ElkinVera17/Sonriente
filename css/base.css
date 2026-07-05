@@ -38,5 +38,13 @@ h3 {
 
 article, section {
     padding: 20px;
-    margin: 20px 0;
+
+}
+
+footer {
+    background-color: var(--gris-azulado);
+    padding: 20px;
+    text-align: center;
+    color: var(--color-superficie);
+    
 }
