@@ -113,14 +113,14 @@ fa-calendar, fa-smile, fa-microchip, fa-shield-halved - Indicadores
 ## Características Principales
 - Diseño responsive - Adaptado a dispositivos móviles, tabletas y computadoras
 - Enfoque mobile first - Optimizado para pantallas pequeñas
-HTML5 semántico - Estructura clara y accesible
-CSS3 modular - Organizado en tres archivos (base, layout, components)
-Bootstrap 5 - Sistema de columnas y componentes interactivos
-Formulario de contacto - Reserva de citas con campos validados
-Carrusel de imágenes - Exhibición de instalaciones
-Iconografía coherente - Font Awesome integrado
-Variables CSS - Paleta de colores centralizada
-Accesibilidad - Atributos alt y etiquetas en formularios
+- HTML5 semántico - Estructura clara y accesible
+- CSS3 modular - Organizado en tres archivos (base, layout, components)
+- Bootstrap 5 - Sistema de columnas y componentes interactivos
+- Formulario de contacto - Reserva de citas con campos validados
+- Carrusel de imágenes - Exhibición de instalaciones
+- Iconografía coherente - Font Awesome integrado
+- Variables CSS - Paleta de colores centralizada
+- Accesibilidad - Atributos alt y etiquetas en formularios
 
 ## Contacto
 Sonriente Especialidades Odontológicas
