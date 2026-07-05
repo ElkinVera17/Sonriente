@@ -1,4 +1,11 @@
-/* base.css */
+/* ========================================
+   BASE.CSS
+   Estilos globales y reset del proyecto
+   ======================================== */
+
+/* ----------------------------------------
+   VARIABLES CSS - Paleta de colores
+   ---------------------------------------- */
 :root {
     /* Colores principales */
     --celeste-hielo: #D8F0F7;
@@ -6,24 +13,35 @@
     --lavanda-fria: #E3DDF5;
     --gris-azulado: #5F7181;
 
-    --color-fondo: #D8F0F7;
     --color-superficie: #ffffff;
     --color-texto: #5F7181;
     --color-primario: #C9EEE8;
     --color-secundario: #E3DDF5;
 }
 
+/* ----------------------------------------
+   RESET Y NORMALIZACIÓN
+   Elimina márgenes y paddings por defecto
+   ---------------------------------------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ----------------------------------------
+   ESTILOS BASE DEL BODY
+   Configuración de tipografía y color principal
+   ---------------------------------------- */
 body {
     font-family: 'Segoe UI', sans-serif;
     color: var(--color-texto);
 }
 
+/* ----------------------------------------
+   JERARQUÍA DE TÍTULOS
+   Tamaños de fuente para h1, h2 y h3
+   ---------------------------------------- */
 h1 {
     font-size: 2rem;
 }
@@ -36,15 +54,21 @@ h3 {
     font-size: 1.25rem;
 }
 
+/* ----------------------------------------
+   ELEMENTOS SEMÁNTICOS
+   Espaciado base para secciones y artículos
+   ---------------------------------------- */
 article, section {
     padding: 20px;
-
 }
 
+/* ----------------------------------------
+   PIE DE PÁGINA
+   Estilos base del footer a nivel global
+   ---------------------------------------- */
 footer {
     background-color: var(--gris-azulado);
     padding: 20px;
     text-align: center;
     color: var(--color-superficie);
-    
 }

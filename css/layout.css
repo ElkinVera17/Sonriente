@@ -1,5 +1,12 @@
+/* ========================================
+   LAYOUT.CSS
+   Estructura y maquetación de las secciones
+   ======================================== */
 
-     /*sección principal */
+/* ----------------------------------------
+   SECCIÓN HERO - Principal
+   Fondo con overlay y diseño flexible
+   ---------------------------------------- */
 #hero{
     background:
     linear-gradient(rgba(216,240,247,.85),rgba(216,240,247,.85)),
@@ -18,34 +25,48 @@
     padding:80px 5%;
 }
 
-
+/* ----------------------------------------
+   MEDIA QUERY - HERO
+   Cambia a diseño horizontal en pantallas grandes
+   ---------------------------------------- */
 @media(min-width:992px){
 
     #hero{
         flex-direction:row;
         text-align:left;
     }
-
 }
-/*Presentación de la empresa*/
 
+/* ----------------------------------------
+   SECCIÓN NOSOTROS - Presentación
+   Fondo celeste y padding característico
+   ---------------------------------------- */
 #nosotros{
     background-color:var( --celeste-hielo);
     padding:80px 5%;
 }
 
-/*Servicios*/
+/* ----------------------------------------
+   SECCIÓN SERVICIOS - Tarjetas
+   Altura mínima para mantener textos alineados
+   ---------------------------------------- */
 .card-text{
     min-height: 90px;
 }
 
-/*Instalaciones*/
-
+/* ----------------------------------------
+   SECCIÓN INSTALACIONES - Galería
+   Fondo lavanda con carrusel de imágenes
+   ---------------------------------------- */
 #instalaciones{
     background-color:var(--lavanda-fria);
     padding:80px 5%;
 }
 
+/* ----------------------------------------
+   CARRUSEL - Altura de imágenes
+   Configuración para diferentes dispositivos
+   ---------------------------------------- */
 .carousel-item{
     height:220px;
 }
@@ -62,7 +83,6 @@
     .carousel-item{
         height:350px;
     }
-
 }
 
 @media(min-width:992px){
@@ -70,15 +90,13 @@
     .carousel-item{
         height:450px;
     }
-
 }
 
-/*Indicadores*/
-
+/* ----------------------------------------
+   SECCIÓN INDICADORES - Datos destacados
+   Fondo celeste y padding característico
+   ---------------------------------------- */
 #indicadores{
     background-color:var( --celeste-hielo);
     padding:80px 5%;
-
 }
-
-
