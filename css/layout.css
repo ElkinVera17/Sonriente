@@ -33,4 +33,51 @@
     background-color:var( --celeste-hielo);
     padding:80px 5%;
 }
-    
+
+/*Servicios*/
+.card-text{
+    min-height: 90px;
+}
+
+/*Instalaciones*/
+
+#instalaciones{
+    background-color:var(--lavanda-fria);
+    padding:80px 5%;
+}
+
+.carousel-item{
+    height:220px;
+}
+
+.carousel-item img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:20px;
+}
+
+@media(min-width:768px){
+
+    .carousel-item{
+        height:350px;
+    }
+
+}
+
+@media(min-width:992px){
+
+    .carousel-item{
+        height:450px;
+    }
+
+}
+
+/*Indicadores*/
+
+#indicadores{
+    background-color:var( --celeste-hielo);
+    padding:80px 5%;
+
+}
+
